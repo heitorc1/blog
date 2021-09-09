@@ -1,4 +1,3 @@
-const sequelize = require('../db')
 const { Post } = require('../../models')
 
 const postController = {
