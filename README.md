@@ -2,6 +2,10 @@
 
 ## Project for studying Express and React
 
+### Project status
+In development
+
+
 To run this you must have Node installed and run:
 
 `npm install`
