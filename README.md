@@ -18,4 +18,4 @@ To run this you must have Node installed and run:
 
 `npm start`
 
-In default config, server is running in port 3000.
+In default config, backend server is running in port 8000 and frontend server in port 3000.

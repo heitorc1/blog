@@ -1,0 +1,15 @@
+.posts {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1rem 0;
+}
+
+.img-posts {
+    width: 15rem;
+    margin: 1.5rem;
+    margin-left: 3rem;
+}
+
+.text-posts {
+    margin-left: 3rem;
+    padding: 0.5rem;
+}
