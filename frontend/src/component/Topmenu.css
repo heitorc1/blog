@@ -1,0 +1,21 @@
+.link>a {
+    text-decoration: none;
+    color: #caf0f8;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.3);
+}
+
+.link>a:hover {
+    color: #48cae4;
+}
+
+.navigation {
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #023e8a, #0096c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #023e8a, #0096c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
