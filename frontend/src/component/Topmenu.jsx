@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import { Link } from "react-router-dom";
 import './Topmenu.css'
 
@@ -20,6 +19,8 @@ export default class Topmenu extends Component {
                             Post
                         </Link>
                     </Nav>
+                    <Link to="/login" className="d-flex authentication">Login</Link>
+                    <Link to="/register" className="d-flex authentication">Register</Link>
                 </Navbar.Collapse>
             </Navbar>
         )

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import Container from 'react-bootstrap/Container'
 import Topmenu from '../../component/Topmenu'
 import Footer from '../../component/Footer'
 import PreviewCard from '../../component/PreviewCard'
 import PostsPreview from '../../component/PostsPreview'
-import Container from 'react-bootstrap/Container'
 
 import img1 from '../../assets/img/img1.jpg'
 import img2 from '../../assets/img/img2.jpg'
@@ -27,9 +27,7 @@ export default class Home extends Component {
                     <PostsPreview src={img1}></PostsPreview>
                     <PostsPreview src={img2}></PostsPreview>
                 </Container>
-                <Container className="d-flex flex-column">
-                    <Footer></Footer>
-                </Container>
+                <Footer></Footer>
             </Container>
         )
     }

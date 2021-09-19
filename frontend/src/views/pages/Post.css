@@ -1,0 +1,25 @@
+.content {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.content h2 {
+    font-weight: 700;
+    padding: 0 3rem;
+}
+
+.content h4 {
+    font-weight: 500;
+    padding: 0 3rem;
+}
+
+.content p {
+    font-weight: 300;
+    padding: 0 3rem;
+    margin-top: 0.5rem;
+}
+
+.img {
+    padding: 1rem 3rem;
+}

@@ -5,3 +5,14 @@ a {
 p {
     font-weight: 500;
 }
+
+.footer > a {
+    color: #6c757d;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: 300;
+}
+
+.line {
+    border: solid 1px #00000030;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default class Footer extends Component {
@@ -10,27 +12,29 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <>
-                <Row className="justify-content-center">
+            <Container className="d-flex flex-column pt-4">
+                <Row className="line"></Row>
+                <Row className="justify-content-center pt-3">
                     <ul className="nav">
-                        <li className="nav-item">
-                            <a href="#" className="nav-link px-2 text-muted">Home</a>
+                        <li className="nav-item footer">
+                            <Link to="/">Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <a href="#" className="nav-link px-2 text-muted">Teste</a>
+                        <li className="nav-item footer">
+                            <Link to="/post">Post</Link>
                         </li>
-                        <li className="nav-item">
-                            <a href="#" className="nav-link px-2 text-muted">Teste2</a>
+                        <li className="nav-item footer">
+                            <Link to="/login">Login</Link>
                         </li>
-                        <li className="nav-item">
-                            <a href="#" className="nav-link px-2 text-muted">Teste3</a>
+                        <li className="nav-item footer">
+                            <Link to="/register">Register</Link>
                         </li>
                     </ul>
                 </Row>
-                <Row className="justify-content-center">
+                <Row className="justify-content-center pt-1">
                     <p className="text-center text-muted">Heitor Carneiro - {this.state.date.getFullYear()}</p>
                 </Row>
-            </>
+                
+            </Container>
         )
     }
 }
